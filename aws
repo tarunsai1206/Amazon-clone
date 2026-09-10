@@ -1,0 +1,39 @@
+```sql
+-- Create a database
+CREATE DATABASE college;
+
+-- Select the database
+USE college;
+
+-- Create a students table
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    course VARCHAR(100)
+);
+
+-- Insert data
+INSERT INTO students (name, age, course)
+VALUES
+    ('Tarun', 22, 'Computer Science'),
+    ('Rahul', 21, 'Electronics'),
+    ('Priya', 22, 'Information Technology');
+
+-- Display all students
+SELECT * FROM students;
+
+-- Find students older than 21
+SELECT * FROM students
+WHERE age > 21;
+
+-- Update a student's course
+UPDATE students
+SET course = 'Software Engineering'
+WHERE id = 1;
+
+-- Delete a student
+DELETE FROM students
+WHERE id = 3;
+```
+
