@@ -1,1 +1,36 @@
+```css
+/* Style the whole webpage */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+    font-size: 40px;
+}
+
+/* Style paragraphs */
+p {
+    color: black;
+    font-size: 20px;
+}
+
+/* Style a button */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button when mouse is over it */
+button:hover {
+    background-color: darkblue;
+}
+```
 
